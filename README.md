@@ -1,4 +1,4 @@
-# 📊 Project Title: Marketing Analysis in Retail
+# 📊 Marketing Analysis in Retail using Power BI
 
 
 ## 📊 Key Insights & Visualizations  
