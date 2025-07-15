@@ -213,7 +213,7 @@ This approach allowed the data to be **cleaned, deduplicated, standardized**, an
 
 </details>
 
-<details open>
+<details>
 <summary>🗣️ <code>fact_customer_reviews_sentiment</code></summary>
 
 The `customer_reviews` table was **not imported directly** into Power BI. Instead, it was extracted using **Python** (`pyodbc`), then transformed to enrich sentiment features using **VADER sentiment analysis**.
