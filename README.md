@@ -16,10 +16,9 @@ Tools Used: SQL/ Power BI/ Python
 
 ## 📌 Background & Overview  
 
-### Objective:
 ### 📖 What is this project about? 
  
-**🚨 Business Problem**
+### 🚨 Business Problem
 
 ShopEasy, a growing online retail business, is facing a serious **drop in customer engagement and conversion rates**, despite launching several new marketing campaigns.
 
@@ -31,7 +30,7 @@ This project analyzes **customer behavior and marketing performance** using Powe
 
 - Make data-driven decisions to improve marketing effectiveness, CVR and customer satisfaction
 
-**🔍 Business Questions**
+### 🔍 Business Questions
 This project helps answer critical business questions, such as:
 
 - What’s causing the drop in conversion rates despite high traffic?
