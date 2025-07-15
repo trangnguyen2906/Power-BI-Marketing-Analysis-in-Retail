@@ -324,7 +324,7 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 ![Page 2 – Funnel & Conversion](https://drive.google.com/uc?export=view&id=1IzoFH04QadHnKLemFnQL68GzwTy3HYeQ)
 
-### Journey Funnel Efficiency
+### 📉 Journey Funnel Efficiency
 - Click-through rate (CTR) is relatively stable (~50%), but a high drop-off rate (~28–31%) remains a concern.
 
 - 2023 had the best funnel performance, with highest click and purchase percentages.
