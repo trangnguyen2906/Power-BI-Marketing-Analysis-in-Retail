@@ -271,7 +271,7 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 ### 1️⃣ Dashboard 1 Preview  
 
-![Page 1 – Dashboard Overview](https://drive.google.com/uc?export=view&id=1KKrXr7qWo4-fgRfQc3jvX7RpVU-RUu3G)
+![Dashboard Page 1](https://drive.google.com/uc?export=view&id=1WLtF4zyPq1VRNU0bUqu10Z7gQMP7UXva)
 
 ### ✅ Conversion Rate Trend (2023–2025)
 
@@ -322,7 +322,7 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 ### 2️⃣ Dashboard 2 Preview 
 
-![Page 2 – Funnel & Conversion](https://drive.google.com/uc?export=view&id=1IzoFH04QadHnKLemFnQL68GzwTy3HYeQ)
+![Dashboard Page 2](https://drive.google.com/uc?export=view&id=1pkvEPw7VFZCBaPWcERVkywa1uAy8KqzK)
 
 ### 📉 Journey Funnel Efficiency
 - Click-through rate (CTR) is relatively stable (~50%), but a high drop-off rate (~28–31%) remains a concern.
@@ -383,7 +383,7 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 ### 3️⃣ Dashboard 3 Preview  
 
-![Page 3 – Engagement & Campaigns](https://drive.google.com/uc?export=view&id=1S9TNNJEhPVDQGWgHxAGX5S2af_tYnHsQ)
+![Dashboard Page 3](https://drive.google.com/uc?export=view&id=161VmAd9I-AlGrC9R5a4jHKWsbSdIvstP)
 
 ### 🔍 Key Observations
 
@@ -413,7 +413,7 @@ The dashboard is divided into **four main pages**, each offering a specific busi
   
 ### 4️⃣ Dashboard 4 Preview  
 
-![Page 4 – Customer Feedback & Sentiment](https://drive.google.com/uc?export=view&id=1-M3ulE4JJHozYSQ5OHwyonWuKZdlRWbB)
+![Dashboard Page 4](https://drive.google.com/uc?export=view&id=1x27mWlJMOdBpKRo5GAwQKVsFuMk783uu)
 
 ### 🔍 Key Observations
 - **Strong Positivity, But Mid-Range Satisfaction:**
