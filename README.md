@@ -1,7 +1,6 @@
-# 📊 Marketing Analysis in Retail using Power BI
-Author: [Your Name]  
-Date: YYYY-MM-DD  
-Tools Used: SQL/ Power BI/ Python  
+# 📊 Marketing Analysis in Retail using Power BI + SQL
+Tools Used: SQL, Python, Power BI 
+DBMS: SQL Server
 
 ---
 
