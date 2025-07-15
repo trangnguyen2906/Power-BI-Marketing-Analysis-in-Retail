@@ -431,13 +431,13 @@ The dashboard is divided into **four main pages**, each offering a specific busi
         
 - **Switzerland & France Show Polarization**
 
-+ Switzerland has the lowest review volume but among the lowest satisfaction scores → potential silent churn risk.
-
-+ France shows high satisfaction (avg. rating ~3.75) but with very low engagement (few total reviews), implying potential for growth with more localized outreach.
+    + Switzerland has the lowest review volume but among the lowest satisfaction scores → potential silent churn risk.
+    
+    + France shows high satisfaction (avg. rating ~3.75) but with very low engagement (few total reviews), implying potential for growth with more localized outreach.
 
 - **Spain Is a Volume Driver:**
 
-+ Spain dominates review volume (250+ reviews) with high-range satisfaction score (~3.77).
+    + Spain dominates review volume (250+ reviews) with high-range satisfaction score (~3.77).
 
 
 
