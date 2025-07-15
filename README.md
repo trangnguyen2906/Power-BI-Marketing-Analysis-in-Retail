@@ -286,17 +286,17 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 **📌 Insight:** Seasonal campaigns or year-end promotions may be driving Q4–Q1 performance gains. Mid-year dips could reflect weaker campaigns, lower audience intent, or less optimized funnels during off-peak periods.
 
 **📌 Recommendations**:
-- Double Down on Q4–Q1 Campaigns:
+- **Double Down on Q4–Q1 Campaigns:**
   + Allocate more budget and creative resources toward campaigns in Q4 and early Q1, where conversion performance historically peaks.
   + Launch high-intent offers, limited-time discounts, or year-end bundles to maximize ROI during this period.
-- Strengthen Funnel Optimization in Q2–Q3
+- **Strengthen Funnel Optimization in Q2–Q3**
 + Audit and improve mid-year funnel stages, such as landing page experience or lead nurturing emails, to counter the recurring dip.
 
 ### 📉 Engagement Metrics Overview
 - ➡️ Trend: Steady year-over-year decline in views, clicks, and likes across all three years.
 - 📌 Insight: Audience reach and engagement have weakened, potentially due to reduced content freshness, changes in platform visibility, or customer fatigue.
 **📌 Recommendations**:
-A/B Test Content Types: Run regular experiments on copy, visuals, and format to find optimal engagement drivers.
+**A/B Test Content Types:** Run regular experiments on copy, visuals, and format to find optimal engagement drivers.
 
 ### 🎯 Content-Type Performance Shift
 
@@ -311,11 +311,11 @@ A/B Test Content Types: Run regular experiments on copy, visuals, and format to 
 **💡 Insight:** Preference has shifted toward personalized, in-depth, and emotionally engaging content types.
 
 **📌 Recommendations**:
-- Invest in Blog and Newsletter production – align with emerging user preferences.
+- **Invest in Blog and Newsletter production** – align with emerging user preferences.
 
-- Optimize newsletter design and targeting – maintain momentum and grow subscriber base.
+- **Optimize newsletter design and targeting** – maintain momentum and grow subscriber base.
 
-- Audit Social Media strategy – low returns may indicate misaligned content or channel fatigue.
+- **Audit Social Media strategy** – low returns may indicate misaligned content or channel fatigue.
 
 ### 2️⃣ Dashboard 2 Preview 
 
