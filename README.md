@@ -275,22 +275,48 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 ### ✅ Conversion Rate Trend (2023–2025)
 
-- 2023: Peaked above 20% in January, followed by a steady decline through Q2–Q3. Moderate recovery began in Q4, continuing through December.
+- **2023:** **Peaked above 20% in January**, followed by a steady decline through Q2–Q3. Moderate recovery began in Q4, continuing through December.
 
-- 2024: Started with a sharp drop in January, struggled through mid-year, then saw a modest Q4 rebound.
+- **2024:** Started with a sharp drop in January, struggled through mid-year, then saw a modest Q4 rebound.
 
-- 2025: Stayed flat until Q3, then saw a significant rise in September and December, consistent with prior seasonal trends.
+- **2025:** Stayed flat until Q3, then saw a significant rise in September and December, consistent with prior seasonal trends.
 
 **🔄 Trend:** Across all 3 years, conversion rates **consistently improve in Q4 to early Q1**, suggesting a **strong seasonal uplift pattern**.
 
 **📌 Insight:** Seasonal campaigns or year-end promotions may be driving Q4–Q1 performance gains. Mid-year dips could reflect weaker campaigns, lower audience intent, or less optimized funnels during off-peak periods.
 
-**✅ Recommendations**:
+**📌 Recommendations**:
 - Double Down on Q4–Q1 Campaigns:
   + Allocate more budget and creative resources toward campaigns in Q4 and early Q1, where conversion performance historically peaks.
   + Launch high-intent offers, limited-time discounts, or year-end bundles to maximize ROI during this period.
-- sd
-- 
+- Strengthen Funnel Optimization in Q2–Q3
++ Audit and improve mid-year funnel stages, such as landing page experience or lead nurturing emails, to counter the recurring dip.
+
+### 📉 Engagement Metrics Overview
+- ➡️ Trend: Steady year-over-year decline in views, clicks, and likes across all three years.
+- 📌 Insight: Audience reach and engagement have weakened, potentially due to reduced content freshness, changes in platform visibility, or customer fatigue.
+**📌 Recommendations**:
+A/B Test Content Types: Run regular experiments on copy, visuals, and format to find optimal engagement drivers.
+
+### 🎯 Content-Type Performance Shift
+
+- 2023: **Top = Social Media**, followed by Blog > Video > Newsletter.
+
+- 2024: Social and Blog close; Newsletter improves.
+
+- 2025: Blog leads, Newsletter rises to 2nd; **Social Media drops to last.**
+
+**📈 Trend:** From social-first to preference for longer-form content like Blog & Newsletter.
+
+**💡 Insight:** Preference has shifted toward personalized, in-depth, and emotionally engaging content types.
+
+**📌 Recommendations**:
+- Invest in Blog and Newsletter production – align with emerging user preferences.
+
+- Optimize newsletter design and targeting – maintain momentum and grow subscriber base.
+
+- Audit Social Media strategy – low returns may indicate misaligned content or channel fatigue.
+
 ### 2️⃣ Dashboard 2 Preview 
 
 ![Page 2 – Funnel & Conversion](https://drive.google.com/uc?export=view&id=1IzoFH04QadHnKLemFnQL68GzwTy3HYeQ)
