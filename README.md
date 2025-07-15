@@ -273,7 +273,24 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 ![Page 1 – Dashboard Overview](https://drive.google.com/uc?export=view&id=1KKrXr7qWo4-fgRfQc3jvX7RpVU-RUu3G)
 
+### ✅ Conversion Rate Trend (2023–2025)
 
+- 2023: Peaked above 20% in January, followed by a steady decline through Q2–Q3. Moderate recovery began in Q4, continuing through December.
+
+- 2024: Started with a sharp drop in January, struggled through mid-year, then saw a modest Q4 rebound.
+
+- 2025: Stayed flat until Q3, then saw a significant rise in September and December, consistent with prior seasonal trends.
+
+**🔄 Trend:** Across all 3 years, conversion rates **consistently improve in Q4 to early Q1**, suggesting a **strong seasonal uplift pattern**.
+
+**📌 Insight:** Seasonal campaigns or year-end promotions may be driving Q4–Q1 performance gains. Mid-year dips could reflect weaker campaigns, lower audience intent, or less optimized funnels during off-peak periods.
+
+**✅ Recommendations**:
+- Double Down on Q4–Q1 Campaigns:
+  + Allocate more budget and creative resources toward campaigns in Q4 and early Q1, where conversion performance historically peaks.
+  + Launch high-intent offers, limited-time discounts, or year-end bundles to maximize ROI during this period.
+- sd
+- 
 ### 2️⃣ Dashboard 2 Preview 
 
 ![Page 2 – Funnel & Conversion](https://drive.google.com/uc?export=view&id=1IzoFH04QadHnKLemFnQL68GzwTy3HYeQ)
