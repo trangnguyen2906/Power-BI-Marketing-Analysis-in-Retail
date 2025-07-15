@@ -324,6 +324,28 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 ![Page 2 – Funnel & Conversion](https://drive.google.com/uc?export=view&id=1IzoFH04QadHnKLemFnQL68GzwTy3HYeQ)
 
+### Journey Funnel Efficiency
+- Click-through rate (CTR) is relatively stable (~50%), but a high drop-off rate (~28–31%) remains a concern.
+
+- 2023 had the best funnel performance, with highest click and purchase percentages.
+
+### 🔍 Seasonal Product Conversion Analysis
+#### ❄️ 1. Winter Products
+- **🧤 Includes:** Ski Boots, Ice Skates, Hockey Stick, Football Helmet
+
+- **🔍 Observations:**
+ + Ski Boots showed excellent early traction — 100% CVR in Jan, 40% in Aug, but dropped sharply to 0% from Sep to Dec, which contradicts the expected winter peak (Q4–Q1).
+ 
+ + Ice Skates performed more in line with seasonal expectations, with increasing conversions in Nov (20%) and Dec (25%).
+ 
+ + Hockey Stick and Football Helmet displayed typical cold-season behavior, peaking in Jan and Dec respectively.
+
+- **❓ Key Marketing Question:**
++ Why was no follow-up campaign for Ski Boots maintained from Sep to Dec, despite the ongoing winter demand?
+
++ Could this be due to promotion gaps, targeting misalignment, or inventory limitations?
+
+
 
 ### 3️⃣ Dashboard 3 Preview  
 
