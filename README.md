@@ -42,7 +42,9 @@ This project helps answer critical business questions, such as:
 
 ### 👥 Who is this project for?
 ✔️ **Marketing Team:** Refine content and improve campaign ROI
+
 ✔️ **CXP Team:** Address recurring complaints and satisfaction gaps
+
 ✔️ **BI & data analysts:** Track trends and measure performance impact
 
 ---
