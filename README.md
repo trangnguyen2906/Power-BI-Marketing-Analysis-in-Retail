@@ -169,7 +169,7 @@ The dataset includes 6 main tables:
 
 ## ⚒️ Main Process
 
-1️⃣ Data Cleaning & Preprocessing 
+### 1️⃣ Data Cleaning & Preprocessing 
 The dataset was sourced directly from SQL Server (`mkt_analysis` database), but instead of importing raw tables, **custom SQL transformations** were embedded directly in Power BI via **Power Query Advanced Editor**.
 
 This allowed data to be **cleaned, deduplicated, standardized**, and **enriched** *before* being loaded into Power BI, optimizing both performance and model clarity.
@@ -190,12 +190,33 @@ This allowed data to be **cleaned, deduplicated, standardized**, and **enriched*
 #### 📊 `fact_engagement`
 - Parsed combined view/click fields into separate numeric columns (`Views`, `Clicks`) using SQL string functions.
 - Cleaned and normalized content type labels (e.g., "Video", "Blog", "Newsletter").
-- Converted date fields to a standard `yyyy-MM-dd` format.
+- Converted date fields to a standard `yyyy-MM-dd` format.\
+  
+📎 **Full SQL transformation logic** is documented in [`transform_data.sql`](transform_data.sql) – this file contains all the exact queries used in preprocessing.
 
 #### 🗣️ `fact_customer_reviews_sentiment`
-- Additional sentiment analysis was performed externally and imported via `fact_customer_reviews_sentiment.csv`, which includes review text, rating, and derived sentiment scores.
+The `customer_reviews` table was **not imported directly** into Power BI. Instead, it was extracted using Python (via `pyodbc`), then transformed to enrich sentiment features using **VADER sentiment analysis**.
 
-📎 **Full SQL transformation logic** is documented in [`transform_data.sql`](transform_data.sql) – this file contains all the exact queries used in preprocessing.
+#### ✅ Why VADER?
+
+VADER (Valence Aware Dictionary and sEntiment Reasoner) is a **lexicon and rule-based sentiment analysis tool** specifically designed for **short social media-style text**. It was selected for this project because:
+
+- It works well on **short, informal, and customer-generated reviews**.
+- It captures **both polarity (positive/negative)** and **intensity (strength)** of sentiment.
+- It’s **fast, interpretable**, and does **not require labeled training data**, making it ideal for real-time business use cases.
+
+#### 🧪 Steps Performed:
+
+- **Fetched review data** from SQL Server into a Pandas DataFrame.
+- **Extended VADER’s lexicon** with custom domain-specific terms (e.g., "top-notch", "quick delivery").
+- Generated:
+  - `SentimentScore`: Compound polarity score from VADER.
+  - `SentimentCategory`: Combined logic from both text sentiment and the customer `Rating`.
+  - `SentimentGroup`: Binned score ranges (e.g., `0.5 to 1.0`, `-0.49 to 0.0`).
+
+📂 Transformed dataset saved as: [`fact_customer_reviews_sentiment.csv`](fact_customer_reviews_sentiment.csv)
+
+⚙️ Full transformation script available in: `fact_review_transform.py`
 
 2️⃣ Exploratory Data Analysis (EDA)  
 3️⃣ SQL/ Python Analysis 
