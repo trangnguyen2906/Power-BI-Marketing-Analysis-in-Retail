@@ -209,9 +209,9 @@ This approach allowed the data to be **cleaned, deduplicated, standardized**, an
 - Normalized content type labels (e.g., "Video", "Blog", "Newsletter").  
 - Reformatted engagement dates to standard `yyyy-MM-dd`.
 
-📎 **Full SQL transformation logic** is documented in [`transform_data.sql`](transform_data.sql)
-
 </details>
+
+📎 **Full SQL transformation logic** is documented in [`transform_data.sql`](transform_data.sql)
 
 <details>
 <summary>🗣️ <code>fact_customer_reviews_sentiment</code></summary>
@@ -239,9 +239,10 @@ VADER (Valence Aware Dictionary and Sentiment Reasoner) is a **lexicon and rule-
   - `SentimentGroup`: Binned score ranges (e.g., `0.5 to 1.0`, `-0.49 to 0.0`)
 
 📂 Transformed dataset saved as [`fact_customer_reviews_sentiment.csv`](fact_customer_reviews_sentiment.csv)  
-⚙️ Full script available in [`customer_review_sentiment.py`](customer_review_sentiment.py)
 
 </details>
+⚙️ Full script available in [`customer_review_sentiment.py`](customer_review_sentiment.py)
+
 
 ![Transformed Schema](https://drive.google.com/uc?export=view&id=16nf6jIISLTwTMzbGTQ2uDuIs0_h_5b0r)
 
