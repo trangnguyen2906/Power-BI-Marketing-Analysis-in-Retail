@@ -415,6 +415,7 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 ![Page 4 – Customer Feedback & Sentiment](https://drive.google.com/uc?export=view&id=1-M3ulE4JJHozYSQ5OHwyonWuKZdlRWbB)
 
+### 🔍 Key Observations
 - **Strong Positivity, But Mid-Range Satisfaction:**
      + While positivity rate is high (61.63%), the average rating score is moderate at 3.69, suggesting many reviews are lukewarm.
      + A large number of 3-star reviews (290) and 4-star reviews (431) imply room for experience upgrades.
@@ -422,12 +423,23 @@ The dashboard is divided into **four main pages**, each offering a specific busi
      + **196 conflicted negative** and **226 negative reviews** (≈31% combined).
      + Common themes in low-rated reviews:
 
-          _ Product mismatch (“color was different from what was shown”)
+          _ **Product mismatch** (“color was different from what was shown”)
           
-          _ Durability issues (e.g., “product broke after a week” for Ski Boots, Fitness Tracker)
+          _ **Durability issues** (e.g., “product broke after a week” for Ski Boots, Fitness Tracker)
           
-          _ Poor customer support (e.g., “terrible customer service, would not buy again”)
+          _ **Poor customer support** (e.g., “terrible customer service, would not buy again”)
         
+- **Switzerland & France Show Polarization**
+
++ Switzerland has the lowest review volume but among the lowest satisfaction scores → potential silent churn risk.
+
++ France shows high satisfaction (avg. rating ~3.75) but with very low engagement (few total reviews), implying potential for growth with more localized outreach.
+
+- **Spain Is a Volume Driver:**
+
++ Spain dominates review volume (250+ reviews) with high-range satisfaction score (~3.77).
+
+
 
 ---
 
