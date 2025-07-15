@@ -1,8 +1,9 @@
 # 📊 Marketing Performance and Customer Feedback Analysis of ShopEasy using Power BI
 - **Tools Used:** SQL, Python, Power BI 
 - **DBMS:** SQL Server
+  
+![Banner](https://drive.google.com/uc?export=view&id=1yklivVlipodiRSSL3jM7ahFznYXMyxty)
 
----
 
 ## 📑 Table of Contents  
 1. [📌 Background & Overview](#-background--overview)  
