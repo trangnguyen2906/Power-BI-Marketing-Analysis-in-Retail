@@ -1,4 +1,4 @@
-# 📊 Marketing Analysis in Retail using Power BI + SQL
+# 📊 Marketing Analysis of ShopEasy using Power BI
 - **Tools Used:** SQL, Python, Power BI 
 - **DBMS:** SQL Server
 
