@@ -164,13 +164,6 @@ The dataset includes 6 main tables:
 ### 🔷 3. Data Relationships
 ![data modeling](https://drive.google.com/uc?export=view&id=1lygirzBWmKxOc97asVBnVOyU4dErwA-L)
 
-  
----
-
-#### 3️⃣ Data Relationships:  
-Describe the connections between tables—e.g., one-to-many, many-to-many.  
-
-👉🏻 Include a screenshot of Data Modeling to visualize relationships.  
 
 ---
 
