@@ -293,10 +293,13 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 + Audit and improve mid-year funnel stages, such as landing page experience or lead nurturing emails, to counter the recurring dip.
 
 ### 📉 Engagement Metrics Overview
-- ➡️ Trend: Steady year-over-year decline in views, clicks, and likes across all three years.
-- 📌 Insight: Audience reach and engagement have weakened, potentially due to reduced content freshness, changes in platform visibility, or customer fatigue.
+**➡️ Trend:** Steady year-over-year decline in views, clicks, and likes across all three years.
+  
+**📌 Insight:** Audience reach and engagement have weakened, potentially due to reduced content freshness, changes in platform visibility, or customer fatigue.
+
 **📌 Recommendations**:
-**A/B Test Content Types:** Run regular experiments on copy, visuals, and format to find optimal engagement drivers.
+
+- **A/B Test Content Types:** Run regular experiments on copy, visuals, and format to find optimal engagement drivers.
 
 ### 🎯 Content-Type Performance Shift
 
