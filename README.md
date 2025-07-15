@@ -245,7 +245,28 @@ VADER (Valence Aware Dictionary and Sentiment Reasoner) is a **lexicon and rule-
 ![Transformed Schema](https://drive.google.com/uc?export=view&id=16nf6jIISLTwTMzbGTQ2uDuIs0_h_5b0r)
 
 ### 2️⃣ Power BI Visualization
+The dashboard is divided into four main pages, each offering a specific business insight:
 
+📈 **PAGE 1: Overview & Performance Summary**
+- Tracks key KPIs like Conversion Rate, Views, Clicks, and Likes.
+
+- Visualizes monthly trends and content performance.
+
+**🔄 PAGE 2: Funnel & Product Conversion**
+- Analyzes drop-off at each funnel stage.
+
+- Breaks down product-wise conversion rates across months.
+
+**📣 PAGE 3: Engagement & Campaign Insights**
+- Monitors campaign activity, total reach, and engagement rate.
+
+- Shows product engagement by type (Views, Clicks, Likes).
+
+**💬 PAGE 4: Customer Feedback & Sentiment**
+- Sentiment analysis from review data, classified by score and rating.
+
+- Highlights review distribution by sentiment, rating, and country.
+  
 ---
 
 
