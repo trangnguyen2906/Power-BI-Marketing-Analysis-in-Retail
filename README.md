@@ -46,7 +46,6 @@ This project helps answer critical business questions, such as:
 
 ✔️ **BI & data analysts:** Track trends and measure performance impact
 
----
 
 ## 📂 Dataset Description & Data Structure  
 
