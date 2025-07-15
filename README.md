@@ -162,7 +162,7 @@ The dataset includes 6 main tables:
 
 
 ### 🔷 3. Data Relationships
-📁 [Original data modeling](https://drive.google.com/file/d/1lygirzBWmKxOc97asVBnVOyU4dErwA-L/view?usp=sharing)
+![data modeling](https://drive.google.com/uc?export=view&id=1lygirzBWmKxOc97asVBnVOyU4dErwA-L)
 
   
 ---
