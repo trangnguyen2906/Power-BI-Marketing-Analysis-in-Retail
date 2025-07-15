@@ -226,12 +226,11 @@ VADER (Valence Aware Dictionary and Sentiment Reasoner) is a **lexicon and rule-
 - It captures both **polarity** (positive/negative) and **intensity**  
 - It’s **fast, interpretable**, and **does not require labeled training data**
 
-#### 🧪 Steps Performed
+#### Steps Performed:
 
 - **Fetched** review data from SQL Server into a Pandas DataFrame  
 - **Extended VADER's lexicon** with domain-specific terms (e.g., “top-notch”, “quick delivery”)  
-- Generated:
-  - `SentimentScore`: Compound polarity score from VADER  
+- Generated: `SentimentScore` - Compound polarity score from VADER  
     - > 0.05 → Positive  
     - < -0.05 → Negative  
     - Between -0.05 and 0.05 → Neutral  
@@ -241,6 +240,7 @@ VADER (Valence Aware Dictionary and Sentiment Reasoner) is a **lexicon and rule-
 📂 Transformed dataset saved as [`fact_customer_reviews_sentiment.csv`](fact_customer_reviews_sentiment.csv)  
 
 </details>
+
 ⚙️ Full script available in [`customer_review_sentiment.py`](customer_review_sentiment.py)
 
 
