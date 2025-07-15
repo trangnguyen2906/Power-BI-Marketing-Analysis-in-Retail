@@ -170,6 +170,33 @@ The dataset includes 6 main tables:
 ## ⚒️ Main Process
 
 1️⃣ Data Cleaning & Preprocessing 
+The dataset was sourced directly from SQL Server (`mkt_analysis` database), but instead of importing raw tables, **custom SQL transformations** were embedded directly in Power BI via **Power Query Advanced Editor**.
+
+This allowed data to be **cleaned, deduplicated, standardized**, and **enriched** *before* being loaded into Power BI, optimizing both performance and model clarity.
+
+### 🔍 Key Cleaning & Transformation Steps:
+
+#### 👤 `dim_customers`
+- Merged customer records with geographic data to enrich with `Country` and `City`.
+
+#### 📦 `dim_products`
+- Introduced a `PriceCategory` column classifying products as **Low**, **Medium**, or **High** price tiers based on business rules.
+
+#### 🔁 `fact_customer_funnel`
+- Cleaned and deduplicated the user journey table using SQL `ROW_NUMBER()` and `PARTITION BY` to keep only the first valid touchpoint per combination.
+- Missing duration values were imputed using the average duration (calculated with `AVG() OVER`).
+- Standardized funnel stages to uppercase format for consistency.
+
+#### 📊 `fact_engagement`
+- Parsed combined view/click fields into separate numeric columns (`Views`, `Clicks`) using SQL string functions.
+- Cleaned and normalized content type labels (e.g., "Video", "Blog", "Newsletter").
+- Converted date fields to a standard `yyyy-MM-dd` format.
+
+#### 🗣️ `fact_customer_reviews_sentiment`
+- Additional sentiment analysis was performed externally and imported via `fact_customer_reviews_sentiment.csv`, which includes review text, rating, and derived sentiment scores.
+
+📎 **Full SQL transformation logic** is documented in [`transform_data.sql`](transform_data.sql) – this file contains all the exact queries used in preprocessing.
+
 2️⃣ Exploratory Data Analysis (EDA)  
 3️⃣ SQL/ Python Analysis 
 
