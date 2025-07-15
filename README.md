@@ -52,9 +52,9 @@ This project helps answer critical business questions, such as:
 ## 📂 Dataset Description & Data Structure  
 
 ### 📌 Data Source  
-- Source: (Mention where the dataset is obtained from—Kaggle, company database, government sources, etc.)  
-- Size: (Mention the number of rows & columns)  
-- Format: (.csv, .sql, .xlsx, etc.)  
+- Source: ShopEasy dataset
+- Size: > 5000 rows
+- Format: .csv
 
 ### 📊 Data Structure & Relationships  
 
