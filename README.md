@@ -335,11 +335,11 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 - **🔍 Observations:**
   
-    + Ski Boots showed excellent early traction, 100% CVR in Jan, 40% in Aug, but dropped sharply to 0% from Sep to Dec, which contradicts the expected winter peak (Q4–Q1).
+    + **Ski Boots** showed excellent early traction, **100% CVR** in Jan, **40% in Aug**, but dropped sharply to **0% from Sep to Dec**, which contradicts the expected winter peak (Q4–Q1).
     
-    + Ice Skates performed more in line with seasonal expectations, with increasing conversions in Nov (20%) and Dec (25%).
+    + **Ice Skates** performed more in line with seasonal expectations, with **increasing conversions in Nov (20%) and Dec (25%).**
     
-    + Hockey Stick and Football Helmet displayed typical cold-season behavior, peaking in Jan and Dec respectively.
+    + **Hockey Stick and Football Helmet** displayed typical cold-season behavior, peaking in Jan and Dec respectively.
 
 - **❓ Key Marketing Question:**
   
@@ -352,17 +352,34 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 - **🔍 Observations:**
   
-    + Surfboard experienced a sharp spike in May (150%), but no activity in Jun–Jul, which are peak summer months -> **Unusual pattern.**
+    + **Surfboard** experienced a sharp spike in May (150%), but no activity in Jun–Jul, which are peak summer months -> **Unusual pattern.**
     
-    + Kayak and Cycling Helmet had mild momentum in Jun–Jul, but conversion lacked consistency.
+    + **Kayak and Cycling Helmet** had mild momentum in Jun–Jul, but **conversion lacked consistency.**
     
-    + Swim Goggles, surprisingly, recorded 0% CVR across all summer months, despite relevance.
+    + **Swim Goggles**, surprisingly, **recorded 0% CVR across all summer months**, despite relevance.
 
 - **❓ Key Marketing Question:**
   
-    + Were summer campaigns launched too early (May), with no continuation into the core season?
+    + Were summer campaigns launched too early (May), with **no continuation into the core season**?
     
     + Was there a misalignment in budget allocation, promotion cadence, or product availability during summer?
+ 
+#### 🧘 3. Year-Round / Wellness Products
+- **Includes:** Yoga Mat, Fitness Tracker, Dumbbells, Boxing Gloves, Running Shoes
+
+- **🔍 Observations:**
+
+   + **Yoga Mat** aligned with expected fitness trends,  peaking in Jan (40%) and Jul (30.8%).
+   
+   + **Fitness Tracker** had decent engagement but was inconsistent month-to-month.
+   
+   + **Boxing Gloves, Dumbbells, and Running Shoes** had persistently low conversion, with many zero-CVR months, despite their evergreen relevance.
+
+- **❓ Key Marketing Question:**
+  
+ + Why are year-round wellness products seeing such **inconsistent performance**?
+ 
+ + Should the team explore **bundle strategies** (e.g. Boxing Gloves + Fitness Tracker) or **niche retargeting for wellness audiences**?
 
 ### 3️⃣ Dashboard 3 Preview  
 
