@@ -369,17 +369,17 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 - **🔍 Observations:**
 
-   + **Yoga Mat** aligned with expected fitness trends,  peaking in Jan (40%) and Jul (30.8%).
-   
-   + **Fitness Tracker** had decent engagement but was inconsistent month-to-month.
-   
-   + **Boxing Gloves, Dumbbells, and Running Shoes** had persistently low conversion, with many zero-CVR months, despite their evergreen relevance.
+    + **Yoga Mat** aligned with expected fitness trends,  peaking in Jan (40%) and Jul (30.8%).
+    
+    + **Fitness Tracker** had decent engagement but was inconsistent month-to-month.
+    
+    + **Boxing Gloves, Dumbbells, and Running Shoes** had persistently low conversion, with many zero-CVR months, despite their evergreen relevance.
 
 - **❓ Key Marketing Question:**
   
- + Why are year-round wellness products seeing such **inconsistent performance**?
- 
- + Should the team explore **bundle strategies** (e.g. Boxing Gloves + Fitness Tracker) or **niche retargeting for wellness audiences**?
+    + Why are year-round wellness products seeing such **inconsistent performance**?
+    
+    + Should the team explore **bundle strategies** (e.g. Boxing Gloves + Fitness Tracker) or **niche retargeting for wellness audiences**?
 
 ### 3️⃣ Dashboard 3 Preview  
 
