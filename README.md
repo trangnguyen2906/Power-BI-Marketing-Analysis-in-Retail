@@ -169,57 +169,79 @@ The dataset includes 6 main tables:
 
 ## ⚒️ Main Process
 
-### 1️⃣ Data Cleaning & Preprocessing 
+### 1️⃣ Data Cleaning & Preprocessing
+
 The dataset was sourced directly from SQL Server (`mkt_analysis` database), but instead of importing raw tables, **custom SQL transformations** were embedded directly in Power BI via **Power Query Advanced Editor**.
 
-This allowed data to be **cleaned, deduplicated, standardized**, and **enriched** *before* being loaded into Power BI, optimizing both performance and model clarity.
+This approach allowed the data to be **cleaned, deduplicated, standardized**, and **enriched** before loading into Power BI, optimizing both performance and model clarity.
 
-### 🔍 Key Cleaning & Transformation Steps:
+---
 
-#### 👤 `dim_customers`
+### 🔍 Key Cleaning & Transformation Steps
+
+<details>
+<summary>👤 <code>dim_customers</code></summary>
+
 - Merged customer records with geographic data to enrich with `Country` and `City`.
 
-#### 📦 `dim_products`
+</details>
+
+<details>
+<summary>📦 <code>dim_products</code></summary>
+
 - Introduced a `PriceCategory` column classifying products as **Low**, **Medium**, or **High** price tiers based on business rules.
 
-#### 🔁 `fact_customer_funnel`
-- Cleaned and deduplicated the user journey table using SQL `ROW_NUMBER()` and `PARTITION BY` to keep only the first valid touchpoint per combination.
-- Missing duration values were imputed using the average duration (calculated with `AVG() OVER`).
-- Standardized funnel stages to uppercase format for consistency.
+</details>
 
-#### 📊 `fact_engagement`
-- Parsed combined view/click fields into separate numeric columns (`Views`, `Clicks`) using SQL string functions.
-- Cleaned and normalized content type labels (e.g., "Video", "Blog", "Newsletter").
-- Converted date fields to a standard `yyyy-MM-dd` format.\
-  
-📎 **Full SQL transformation logic** is documented in [`transform_data.sql`](transform_data.sql) – this file contains all the exact queries used in preprocessing.
+<details>
+<summary>🔁 <code>fact_customer_funnel</code></summary>
 
-#### 🗣️ `fact_customer_reviews_sentiment`
-The `customer_reviews` table was **not imported directly** into Power BI. Instead, it was extracted using Python (via `pyodbc`), then transformed to enrich sentiment features using **VADER sentiment analysis**.
+- Cleaned and deduplicated user journey data using SQL `ROW_NUMBER()` and `PARTITION BY` to keep only the first valid touchpoint per combination.  
+- Missing duration values were imputed using the average duration (with `AVG() OVER`).  
+- Standardized funnel stage names to uppercase for consistency.
+
+</details>
+
+<details>
+<summary>📊 <code>fact_engagement</code></summary>
+
+- Parsed combined view/click fields into numeric columns (`Views`, `Clicks`) using SQL string functions.  
+- Normalized content type labels (e.g., "Video", "Blog", "Newsletter").  
+- Reformatted engagement dates to standard `yyyy-MM-dd`.
+
+📎 **Full SQL transformation logic** is documented in [`transform_data.sql`](transform_data.sql)
+
+</details>
+
+<details open>
+<summary>🗣️ <code>fact_customer_reviews_sentiment</code></summary>
+
+The `customer_reviews` table was **not imported directly** into Power BI. Instead, it was extracted using **Python** (`pyodbc`), then transformed to enrich sentiment features using **VADER sentiment analysis**.
 
 #### ✅ Why VADER?
 
-VADER (Valence Aware Dictionary and Sentiment Reasoner) is a **lexicon and rule-based sentiment analysis tool** specifically designed for **short social media-style text**. It was selected for this project because:
+VADER (Valence Aware Dictionary and Sentiment Reasoner) is a **lexicon and rule-based sentiment analysis tool** designed for **short, informal text**, like customer reviews. It was selected for this project because:
 
-- It works well on **short, informal, and customer-generated reviews**.
-- It captures **both polarity (positive/negative)** and **intensity (strength)** of sentiment.
-- It’s **fast, interpretable**, and does **not require labeled training data**
+- It works well on short, customer-generated reviews  
+- It captures both **polarity** (positive/negative) and **intensity**  
+- It’s **fast, interpretable**, and **does not require labeled training data**
 
-#### 🧪 Steps Performed:
+#### 🧪 Steps Performed
 
-- **Fetched review data** from SQL Server into a Pandas DataFrame.
-- **Extended VADER’s lexicon** with custom domain-specific terms (e.g., "top-notch", "quick delivery").
+- **Fetched** review data from SQL Server into a Pandas DataFrame  
+- **Extended VADER's lexicon** with domain-specific terms (e.g., “top-notch”, “quick delivery”)  
 - Generated:
-  - `SentimentScore`: Compound polarity score from VADER.
-   + Compound score > 0.05: Positive sentiment
-   + Compound score < -0.05: Negative sentiment
-   + Compound score between -0.05 and 0.05: Neutral sentiment
-  - `SentimentCategory`: Combined logic from both text sentiment and the customer `Rating`.
-  - `SentimentGroup`: Binned score ranges (e.g., `0.5 to 1.0`, `-0.49 to 0.0`).
+  - `SentimentScore`: Compound polarity score from VADER  
+    - > 0.05 → Positive  
+    - < -0.05 → Negative  
+    - Between -0.05 and 0.05 → Neutral  
+  - `SentimentCategory`: Combined logic from sentiment score and customer `Rating`  
+  - `SentimentGroup`: Binned score ranges (e.g., `0.5 to 1.0`, `-0.49 to 0.0`)
 
-📂 Transformed dataset saved as: [`fact_customer_reviews_sentiment.csv`](fact_customer_reviews_sentiment.csv)
+📂 Transformed dataset saved as [`fact_customer_reviews_sentiment.csv`](fact_customer_reviews_sentiment.csv)  
+⚙️ Full script available in [`customer_review_sentiment.py`](customer_review_sentiment.py)
 
-⚙️ Full transformation script available in: [`customer_review_sentiment.py`](customer_review_sentiment.py)
+</details>
 
 ![Transformed Schema](https://drive.google.com/uc?export=view&id=16nf6jIISLTwTMzbGTQ2uDuIs0_h_5b0r)
 
