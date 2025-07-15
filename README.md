@@ -199,11 +199,11 @@ The `customer_reviews` table was **not imported directly** into Power BI. Instea
 
 #### ✅ Why VADER?
 
-VADER (Valence Aware Dictionary and sEntiment Reasoner) is a **lexicon and rule-based sentiment analysis tool** specifically designed for **short social media-style text**. It was selected for this project because:
+VADER (Valence Aware Dictionary and Sentiment Reasoner) is a **lexicon and rule-based sentiment analysis tool** specifically designed for **short social media-style text**. It was selected for this project because:
 
 - It works well on **short, informal, and customer-generated reviews**.
 - It captures **both polarity (positive/negative)** and **intensity (strength)** of sentiment.
-- It’s **fast, interpretable**, and does **not require labeled training data**, making it ideal for real-time business use cases.
+- It’s **fast, interpretable**, and does **not require labeled training data**
 
 #### 🧪 Steps Performed:
 
@@ -211,6 +211,9 @@ VADER (Valence Aware Dictionary and sEntiment Reasoner) is a **lexicon and rule-
 - **Extended VADER’s lexicon** with custom domain-specific terms (e.g., "top-notch", "quick delivery").
 - Generated:
   - `SentimentScore`: Compound polarity score from VADER.
+   + Compound score > 0.05: Positive sentiment
+   + Compound score < -0.05: Negative sentiment
+   + Compound score between -0.05 and 0.05: Neutral sentiment
   - `SentimentCategory`: Combined logic from both text sentiment and the customer `Rating`.
   - `SentimentGroup`: Binned score ranges (e.g., `0.5 to 1.0`, `-0.49 to 0.0`).
 
@@ -218,17 +221,9 @@ VADER (Valence Aware Dictionary and sEntiment Reasoner) is a **lexicon and rule-
 
 ⚙️ Full transformation script available in: [`customer_review_sentiment.py`](customer_review_sentiment.py)
 
-2️⃣ Exploratory Data Analysis (EDA)  
-3️⃣ SQL/ Python Analysis 
+![Transformed Schema](https://drive.google.com/uc?export=view&id=16nf6jIISLTwTMzbGTQ2uDuIs0_h_5b0r)
 
-- In each step, show your Code
-
-- Include query/ code execution screenshots or result samples
-
-- Explain its purpose and its findings
-
-
-4️⃣ Power BI Visualization  (applicable for PBI Projects)
+### 2️⃣ Power BI Visualization
 
 ---
 
@@ -252,7 +247,7 @@ VADER (Valence Aware Dictionary and sEntiment Reasoner) is a **lexicon and rule-
 ![Page 3 – Engagement & Campaigns](https://drive.google.com/uc?export=view&id=1S9TNNJEhPVDQGWgHxAGX5S2af_tYnHsQ)
 
   
-####  Dashboard 4 Preview  
+#### 4️⃣ Dashboard 4 Preview  
 
 ![Page 4 – Customer Feedback & Sentiment](https://drive.google.com/uc?export=view&id=1-M3ulE4JJHozYSQ5OHwyonWuKZdlRWbB)
 ---
