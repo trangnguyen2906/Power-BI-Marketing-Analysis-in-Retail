@@ -216,7 +216,7 @@ VADER (Valence Aware Dictionary and sEntiment Reasoner) is a **lexicon and rule-
 
 📂 Transformed dataset saved as: [`fact_customer_reviews_sentiment.csv`](fact_customer_reviews_sentiment.csv)
 
-⚙️ Full transformation script available in: `fact_review_transform.py`
+⚙️ Full transformation script available in: [`customer_review_sentiment.py`](customer_review_sentiment.py)
 
 2️⃣ Exploratory Data Analysis (EDA)  
 3️⃣ SQL/ Python Analysis 
