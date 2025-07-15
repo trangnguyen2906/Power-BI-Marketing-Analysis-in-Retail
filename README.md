@@ -1,4 +1,4 @@
-# 📊 Marketing Analysis of ShopEasy using Power BI
+# 📊 Marketing Performance and Customer Feedback Analysis of ShopEasy using Power BI
 - **Tools Used:** SQL, Python, Power BI 
 - **DBMS:** SQL Server
 
