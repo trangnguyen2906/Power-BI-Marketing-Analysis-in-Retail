@@ -1,6 +1,6 @@
 # 📊 Marketing Analysis in Retail using Power BI + SQL
-Tools Used: SQL, Python, Power BI 
-DBMS: SQL Server
+- **Tools Used:** SQL, Python, Power BI 
+- **DBMS:** SQL Server
 
 ---
 
