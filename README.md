@@ -287,10 +287,10 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 
 **📌 Recommendations**:
 - **Double Down on Q4–Q1 Campaigns:**
-  + Allocate more budget and creative resources toward campaigns in Q4 and early Q1, where conversion performance historically peaks.
-  + Launch high-intent offers, limited-time discounts, or year-end bundles to maximize ROI during this period.
+    + Allocate more budget and creative resources toward campaigns in Q4 and early Q1, where conversion performance historically peaks.
+    + Launch high-intent offers, limited-time discounts, or year-end bundles to maximize ROI during this period.
 - **Strengthen Funnel Optimization in Q2–Q3**
-+ Audit and improve mid-year funnel stages, such as landing page experience or lead nurturing emails, to counter the recurring dip.
+    + Audit and improve mid-year funnel stages, such as landing page experience or lead nurturing emails, to counter the recurring dip.
 
 ### 📉 Engagement Metrics Overview
 **➡️ Trend:** Steady year-over-year decline in views, clicks, and likes across all three years.
@@ -334,31 +334,35 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 - **🧤 Includes:** Ski Boots, Ice Skates, Hockey Stick, Football Helmet
 
 - **🔍 Observations:**
-  + Ski Boots showed excellent early traction, 100% CVR in Jan, 40% in Aug, but dropped sharply to 0% from Sep to Dec, which contradicts the expected winter peak (Q4–Q1).
   
-  + Ice Skates performed more in line with seasonal expectations, with increasing conversions in Nov (20%) and Dec (25%).
-  
-  + Hockey Stick and Football Helmet displayed typical cold-season behavior, peaking in Jan and Dec respectively.
+    + Ski Boots showed excellent early traction, 100% CVR in Jan, 40% in Aug, but dropped sharply to 0% from Sep to Dec, which contradicts the expected winter peak (Q4–Q1).
+    
+    + Ice Skates performed more in line with seasonal expectations, with increasing conversions in Nov (20%) and Dec (25%).
+    
+    + Hockey Stick and Football Helmet displayed typical cold-season behavior, peaking in Jan and Dec respectively.
 
 - **❓ Key Marketing Question:**
- + Why was **no follow-up campaign for Ski Boots** maintained from Sep to Dec, despite the ongoing winter demand?
- 
- + Could this be due to **promotion gaps, targeting misalignment, or inventory limitations**?
+  
+    + Why was **no follow-up campaign for Ski Boots** maintained from Sep to Dec, despite the ongoing winter demand?
+    
+    + Could this be due to **promotion gaps, targeting misalignment, or inventory limitations**?
 
 #### ☀️ 2. Summer Products
 - **🏄 Includes:** Surfboard, Kayak, Swim Goggles, Cycling Helmet
 
 - **🔍 Observations:**
- + Surfboard experienced a sharp spike in May (150%), but no activity in Jun–Jul, which are peak summer months -> **Unusual pattern.**
- 
- + Kayak and Cycling Helmet had mild momentum in Jun–Jul, but conversion lacked consistency.
- 
- + Swim Goggles, surprisingly, recorded 0% CVR across all summer months, despite relevance.
+  
+    + Surfboard experienced a sharp spike in May (150%), but no activity in Jun–Jul, which are peak summer months -> **Unusual pattern.**
+    
+    + Kayak and Cycling Helmet had mild momentum in Jun–Jul, but conversion lacked consistency.
+    
+    + Swim Goggles, surprisingly, recorded 0% CVR across all summer months, despite relevance.
 
 - **❓ Key Marketing Question:**
- + Were summer campaigns launched too early (May), with no continuation into the core season?
- 
- + Was there a misalignment in budget allocation, promotion cadence, or product availability during summer?
+  
+    + Were summer campaigns launched too early (May), with no continuation into the core season?
+    
+    + Was there a misalignment in budget allocation, promotion cadence, or product availability during summer?
 
 ### 3️⃣ Dashboard 3 Preview  
 
