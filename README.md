@@ -175,7 +175,6 @@ The dataset was sourced directly from SQL Server (`mkt_analysis` database), but 
 
 This approach allowed the data to be **cleaned, deduplicated, standardized**, and **enriched** before loading into Power BI, optimizing both performance and model clarity.
 
----
 
 ### 🔍 Key Cleaning & Transformation Steps
 
