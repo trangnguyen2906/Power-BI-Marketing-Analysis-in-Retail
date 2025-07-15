@@ -19,25 +19,32 @@ Tools Used: SQL/ Power BI/ Python
 ### Objective:
 ### 📖 What is this project about? 
  
-- Provide a brief introduction to the project. Define the problem statement/ business question that this project will show and why it is important.
-- Write in bullet point format
+**🚨 Business Problem**
 
- _Example:_
+ShopEasy, a growing online retail business, is facing a serious **drop in customer engagement and conversion rates**, despite launching several new marketing campaigns.
 
- This project analyzes sales trends and inventory control using SQL and Power BI. The objective is
-✔️ Identify high-demand products and sales trends.  
-✔️ Optimize inventory levels to prevent overstocking or stockouts.  
-✔️ Provide actionable insights through Power BI dashboards.  
+This project analyzes **customer behavior and marketing performance** using Power BI to help ShopEasy:
 
-### 👤 Who is this project for?  
+- Understand why engagement and conversions are declining
 
-Mention who might benefit from this project 
+- Identify weak points in the customer journey and content strategy
 
- _Example:_
+- Make data-driven decisions to improve marketing effectiveness, CVR and customer satisfaction
 
-✔️ Data analysts & business analysts  
-✔️ Supply chain managers & inventory controllers  
-✔️ Decision-makers & stakeholders  
+**🔍 Business Questions**
+This project helps answer critical business questions, such as:
+
+- What’s causing the drop in conversion rates despite high traffic?
+
+- Which content types (blog, video, social media) drive the most engagement?
+
+- At what point in the customer journey do users drop off?
+
+
+### 👥 Who is this project for?
+✔️ **Marketing Team:** Refine content and improve campaign ROI
+✔️ **CXP Team:** Address recurring complaints and satisfaction gaps
+✔️ **BI & data analysts:** Track trends and measure performance impact
 
 ---
 
