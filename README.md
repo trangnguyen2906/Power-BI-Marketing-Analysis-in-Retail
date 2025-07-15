@@ -24,11 +24,11 @@ ShopEasy, a growing online retail business, is facing a serious **drop in custom
 
 This project analyzes **customer behavior and marketing performance** using Power BI to help ShopEasy:
 
-- Understand why engagement and conversions are declining
+- Understand **why engagement and conversions are declining**
 
-- Identify weak points in the customer journey and content strategy
+- Identify **weak points in the customer journey** and **content strategy**
 
-- Make data-driven decisions to improve marketing effectiveness, CVR and customer satisfaction
+- Make data-driven decisions to **improve marketing effectiveness, CVR and customer satisfaction**
 
 ### 🔍 Business Questions
 This project helps answer critical business questions, such as:
