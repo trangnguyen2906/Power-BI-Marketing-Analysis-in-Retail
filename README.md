@@ -56,62 +56,122 @@ This project helps answer critical business questions, such as:
 - Size: > 5000 rows
 - Format: .csv
 
-### 📊 Data Structure & Relationships  
+## 🗂️ Part 2: Data Structure & Relationships
 
-#### 1️⃣ Tables Used:  
-Mention how many tables are in the dataset.  
+### 🔷 1. Tables Used
 
-#### 2️⃣ Table Schema & Data Snapshot  
+The dataset includes 6 main tables:
 
-Table 1: Products Table  
+1. `fact_customer_funnel` – Tracks customer behavior across different funnel stages  
+2. `fact_customer_reviews` – Stores unprocessed customer feedback with rating and text  
+3. `fact_engagement` – Captures campaign-level engagement metrics like views, clicks, likes  
+4. `dim_customers` – Contains demographic details of customers  
+5. `dim_products` – Includes product details like category and price  
+6. `dim_geography` – Lists country and city-level geographic info
 
-👉🏻 Insert a screenshot of table schema. if table is too long, only show a snapshot of it. Recommend to put it in a toggle format
+---
 
- _Example:_
+### 🔷 2. Table Schema & Data Snapshot
 
-| Column Name | Data Type | Description |  
-|-------------|----------|-------------|  
-| Product_ID  | INT      | Unique identifier for each product |  
-| Name        | TEXT     | Product name |  
-| Category    | TEXT     | Product category |  
-| Price       | FLOAT    | Price per unit |  
+<details>
+<summary>📍 <strong>fact_customer_funnel</strong></summary>
 
+| Column Name | Data Type | Description |
+|-------------|-----------|-------------|
+| JourneyID   | INT       | Unique ID for each customer session |
+| CustomerID  | INT       | Linked to dim_customers |
+| ProductID   | INT       | Linked to dim_products |
+| VisitDate   | DATE      | Date of visit |
+| Stage       | TEXT      | Funnel stage (Homepage, ProductPage, Checkout) |
+| Action      | TEXT      | Action taken (View, Click, Drop-off) |
+| Duration    | FLOAT     | Time spent on stage (seconds) |
 
+</details>
 
-Table 2: Sales Transactions  
+<details>
+<summary>📝 <strong>fact_customer_reviews</strong></summary>
 
-👉🏻 Insert a screenshot of table schema. if table is too long, only show a snapshot of it. Recommend to put it in a toggle format
+| Column Name | Data Type | Description |
+|-------------|-----------|-------------|
+| ReviewID    | INT       | Unique ID for each review |
+| CustomerID  | INT       | Linked to dim_customers |
+| ProductID   | INT       | Linked to dim_products |
+| ReviewDate  | DATE      | Date the review was submitted |
+| Rating      | INT       | Star rating (1 to 5) |
+| ReviewText  | TEXT      | Raw review text from customers |
 
+📌 *Example review texts (raw):*  
+- “Average experience, nothing special.”  
+- “The quality is top-notch.”  
+- “Customer support was very helpful.”
 
- _Example:_
+</details>
 
-| Column Name    | Data Type | Description |  
-|---------------|----------|-------------|  
-| Transaction_ID | INT      | Unique identifier for each sale |  
-| Product_ID     | INT      | Foreign key linking to Products table |  
-| Quantity       | INT      | Number of items sold |  
-| Sale_Date      | DATE     | Date of transaction |  
+<details>
+<summary>👤 <strong>dim_customers</strong></summary>
 
+| Column Name  | Data Type | Description |
+|--------------|-----------|-------------|
+| CustomerID   | INT       | Unique customer identifier |
+| CustomerName | TEXT      | Full name |
+| Email        | TEXT      | Contact email |
+| Gender       | TEXT      | Gender |
+| Age          | INT       | Age of customer |
 
-📌If the table is too big, only capture a part of it that contains key metrics you used in the projects or put the table in toggle
+</details>
+
+<details>
+<summary>📊 <strong>fact_engagement</strong></summary>
+
+| Column Name    | Data Type | Description |
+|----------------|-----------|-------------|
+| EngagementID   | INT       | Unique ID per interaction |
+| ContentID      | INT       | ID for the content type |
+| CampaignID     | INT       | Marketing campaign identifier |
+| ProductID      | INT       | Linked to dim_products |
+| ContentType    | TEXT      | Format: Blog, Video, Social, etc. |
+| Views          | INT       | Number of views |
+| Clicks         | INT       | Number of clicks |
+| Likes          | INT       | Number of likes |
+| EngagementDate | DATE      | Date of engagement |
+
+</details>
+
+<details>
+<summary>📦 <strong>dim_products</strong></summary>
+
+| Column Name   | Data Type | Description |
+|---------------|-----------|-------------|
+| ProductID     | INT       | Unique product ID |
+| ProductName   | TEXT      | Product title |
+| Category      | TEXT      | Product category |
+| Price         | FLOAT     | Price in USD |
+| PriceCategory | TEXT      | Price tier (High, Medium, Low) |
+
+</details>
+
+<details>
+<summary>🌍 <strong>dim_geography</strong></summary>
+
+| Column Name | Data Type | Description |
+|-------------|-----------|-------------|
+| GeographyID | INT       | Unique region ID |
+| Country     | TEXT      | Country name |
+| City        | TEXT      | City name |
+
+</details>
+
+---
+
+### 🔷 3. Data Relationships
+
+  
+---
 
 #### 3️⃣ Data Relationships:  
 Describe the connections between tables—e.g., one-to-many, many-to-many.  
 
 👉🏻 Include a screenshot of Data Modeling to visualize relationships.  
-
----
-
-## 🧠 Design Thinking Process  
-
-Explain the step-by-step approach taken to solve the problem.  
-
-👉🏻 Insert a screenshot of the Design Thinking steps (Screenshot your Excel design thinking tables for better presentation).  
-
-1️⃣ Empathize  
-2️⃣ Define point of view  
-3️⃣ Ideate  
-4️⃣ Prototype and review  
 
 ---
 
