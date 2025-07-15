@@ -1,0 +1,88 @@
+dim_date = 
+ADDCOLUMNS(
+    CALENDARAUTO(),
+    "Year", YEAR ( [Date] ),
+    "Month", FORMAT ( [Date], "MM" ),
+    "YearMonth", FORMAT ( [Date], "YYYY/MM" ),
+    "YearMonthShort", FORMAT ( [Date], "YYYY/mmm" ),
+    "MonthNameShort", FORMAT ( [Date], "mmm" ),
+    "MonthName", FORMAT ( [Date], "mmmm" ),
+    "DayOfWeekNum", WEEKDAY ( [Date] ),
+    "DayOfWeek", FORMAT ( [Date], "dddd" ),
+    "DayOfWeekShort", FORMAT ( [Date], "ddd" ),
+    "Quarter", "Q" & FORMAT ( [Date], "Q" ),
+    "YearQuarter",
+        FORMAT ( [Date], "YYYY" ) & "/Q"
+            & FORMAT ( [Date], "Q" )
+    )
+---
+
+% CVR = 
+VAR TotalVisitors = CALCULATE( COUNT (fact_customer_funnel[JourneyID]) , fact_customer_funnel[Action] = "View" )
+VAR TotalPurchases = CALCULATE(
+    COUNT(fact_customer_funnel[JourneyID]),
+    fact_customer_funnel[Action] = "Purchase"
+)
+RETURN
+IF(
+    TotalVisitors = 0, 
+    0, 
+    DIVIDE(TotalPurchases, TotalVisitors)
+)
+
+---
+%drop_off = 
+VAR DropOffs =
+    CALCULATE(
+        COUNTROWS(fact_customer_funnel),
+        fact_customer_funnel[Action] = "Drop-off"
+    )
+RETURN
+    DIVIDE(DropOffs, [total_journey])
+
+---
+%Engagement = DIVIDE([total_clicks] + [total_likes], [total_views])
+
+---
+avg_rating_score = AVERAGE(fact_customer_reviews_sentiment[Rating])
+
+---
+AvgDuration = AVERAGE(fact_customer_funnel[Duration])
+
+---
+Negativity Rate = 
+DIVIDE(
+    CALCULATE(
+        COUNT(fact_customer_reviews_sentiment[ReviewID]),
+        fact_customer_reviews_sentiment[SentimentCategory] = "Negative"
+    ),
+    [total_reviews]
+)
+
+---
+Positivity_Rate = 
+DIVIDE(
+    CALCULATE(
+        COUNT(fact_customer_reviews_sentiment[ReviewID]),
+        fact_customer_reviews_sentiment[SentimentCategory] = "Positive"
+    ),
+    [total_reviews]
+)
+
+---
+total_campaign = DISTINCTCOUNT(fact_engagement[CampaignID]) 
+
+---
+total_clicks = SUM(fact_engagement[Clicks])
+
+---
+total_journey = DISTINCTCOUNT(fact_customer_funnel[JourneyID])
+
+---
+total_likes = SUM(fact_engagement[Likes]) 
+
+---
+total_reviews = DISTINCTCOUNT(fact_customer_reviews_sentiment[ReviewID])
+
+---
+total_views = SUM(fact_engagement[Views])
