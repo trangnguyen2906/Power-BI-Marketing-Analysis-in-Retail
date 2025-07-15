@@ -56,7 +56,7 @@ This project helps answer critical business questions, such as:
 - Size: > 5000 rows
 - Format: .csv
 
-## 🗂️ Part 2: Data Structure & Relationships
+### Data Structure & Relationships
 
 ### 🔷 1. Tables Used
 
@@ -69,7 +69,6 @@ The dataset includes 6 main tables:
 5. `dim_products` – Includes product details like category and price  
 6. `dim_geography` – Lists country and city-level geographic info
 
----
 
 ### 🔷 2. Table Schema & Data Snapshot
 
@@ -161,7 +160,6 @@ The dataset includes 6 main tables:
 
 </details>
 
----
 
 ### 🔷 3. Data Relationships
 
