@@ -56,7 +56,7 @@ This project helps answer critical business questions, such as:
 - Size: > 5000 rows
 - Format: .csv
 
-### Data Structure & Relationships
+### 📌 Data Structure & Relationships
 
 ### 🔷 1. Tables Used
 
@@ -162,6 +162,7 @@ The dataset includes 6 main tables:
 
 
 ### 🔷 3. Data Relationships
+📁 [Original data modeling](https://drive.google.com/file/d/1lygirzBWmKxOc97asVBnVOyU4dErwA-L/view?usp=sharing)
 
   
 ---
