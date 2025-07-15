@@ -399,15 +399,17 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 ### ✅ Recommendations
 
 - **Bridge Funnel Gaps for High-Interest Products**  
-     + Retarget and recover carts for products like **Running Shoes** and **Boxing Gloves** that attract but don’t convert.  
+     + Retarget and recover carts for products like **Running Shoes** and **Boxing Gloves** that attract but don’t convert.
+       
      + Audit checkout UX and trust signals for friction points (e.g., for Swim Goggles).
 
 - **Align Engagement with Purchase Seasonality**  
-    + Extend campaigns (e.g., **Surfboard**) deeper into summer, not just in May.  
+    + Extend campaigns (e.g., **Surfboard**) deeper into summer, not just in May.
+      
     + For **Yoga Mat**,... sustain momentum across the year with mid-year bundles (e.g., Dumbbells or Fitness Tracker).
 
 - **Reinstate Video-Driven Promotions in Q2–Q3**  
-  `   + Reintroduce **video, demo, influencer** content for emotion-driven summer products like **Kayak** and **Swim Goggles**.
+    + Reintroduce **video, demo, influencer** content for emotion-driven summer products like **Kayak** and **Swim Goggles**.
   
 ### 4️⃣ Dashboard 4 Preview  
 
