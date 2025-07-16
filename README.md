@@ -326,9 +326,9 @@ The dashboard is divided into **four main pages**, each offering a specific busi
 ![Dashboard Page 2](https://drive.google.com/uc?export=view&id=1pkvEPw7VFZCBaPWcERVkywa1uAy8KqzK)
 
 ### 📉 Journey Funnel Efficiency
-- Click-through rate (CTR) is relatively stable (~50%), but a high drop-off rate (~28–31%) remains a concern.
+-** Click-through rate (CTR) is relatively stable (~50%)**, but a **high drop-off rate (~28–31%)** remains a concern.
 
-- 2023 had the best funnel performance, with highest click and purchase percentages.
+- **2023** had the best funnel performance, with highest click and purchase percentages.
 
 ### 🔍 Seasonal Product Conversion Analysis
 #### ❄️ 1. Winter Products
